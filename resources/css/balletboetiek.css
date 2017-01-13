@@ -1,0 +1,40 @@
+:root {
+    --background-color: #FFF2FF;
+    --font-color: #990000;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-style: italic;
+}
+
+header h1, header h2, header address {
+    text-align: center;
+}
+
+header h1, header h2 {
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 300%;
+    line-height: 0;
+}
+
+header h1::before, header h1::after {
+    content: "'";
+}
+
+header h2 {
+    font-size: 200%;
+}
+
+header address {
+    font-size: 150%;
+}
+
+header address a::before, header address a::after {
+    content: "'";
+}
