@@ -1,6 +1,8 @@
 :root {
     --background-color: #FFF2FF;
     --font-color: #990000;
+    --navigation-border-color: #FDAEB6;
+    --navigation-button-size: 60px;
 }
 
 body {
@@ -37,4 +39,28 @@ header address {
 
 header address a::before, header address a::after {
     content: "'";
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav ul li {
+    display: inline-block;
+    width: var(--navigation-button-size);
+    height: var(--navigation-button-size);
+    list-style: none;
+    font-size: 125%;
+    border-color: var(--navigation-border-color);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: calc(var(--navigation-button-size)/2);
+    text-align: center;
+    vertical-align: middle;
+    line-height: var(--navigation-button-size);
 }
