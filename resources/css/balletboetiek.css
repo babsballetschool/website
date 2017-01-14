@@ -7,6 +7,7 @@
     --section-color: #000000;
     --section-background: #FFFFFF;
     --section-border-radius: 30px;
+    --section-margin-bottom: 20px;
 }
 
 body {
@@ -79,6 +80,8 @@ main section {
     border-color: var(--section-background);
     border-width: 1px;
     padding: var(--section-border-radius);
+    padding-left: 20%;
+    margin-bottom: var(--section-margin-bottom);
 }
 
 main section p {
