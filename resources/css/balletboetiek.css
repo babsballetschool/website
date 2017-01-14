@@ -3,6 +3,9 @@
     --font-color: #990000;
     --navigation-border-color: #FDAEB6;
     --navigation-button-size: 60px;
+    --section-color: #000000;
+    --section-background: #FFFFFF;
+    --section-border-radius: 30px;
 }
 
 body {
@@ -63,4 +66,17 @@ header nav ul li {
     text-align: center;
     vertical-align: middle;
     line-height: var(--navigation-button-size);
+}
+
+main section {
+    background: var(--section-background);
+    border-radius: var(--section-border-radius);
+    border-style: solid;
+    border-color: var(--section-background);
+    border-width: 1px;
+    padding: var(--section-border-radius);
+}
+
+main section p {
+    color: var(--section-color);
 }
