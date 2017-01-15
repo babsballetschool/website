@@ -4,6 +4,7 @@
     --font-color: #990000;
     --navigation-border-color: #FDAEB6;
     --navigation-button-size: 60px;
+    --navigation-button-size-hover: 65px;
     --section-color: #000000;
     --section-background: #FFFFFF;
     --section-border-radius: 30px;
@@ -56,6 +57,7 @@ header nav ul {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
+    min-height: calc(var(--navigation-button-size-hover) + 5px);
 }
 
 header nav ul li {
@@ -63,7 +65,8 @@ header nav ul li {
     width: var(--navigation-button-size);
     height: var(--navigation-button-size);
     list-style: none;
-    font-size: 125%;
+    font-size: 100%;
+    font-style: normal;
     border-color: var(--navigation-border-color);
     border-width: 2px;
     border-style: solid;
@@ -72,6 +75,19 @@ header nav ul li {
     vertical-align: middle;
     line-height: var(--navigation-button-size);
     background-image: radial-gradient(ellipse farthest-corner at 50% 10%, white, #EFCEDB);
+}
+
+header nav ul li.wide-text {
+    font-size: 90%;
+}
+
+header nav ul li:hover {
+    width: var(--navigation-button-size-hover);
+    height: var(--navigation-button-size-hover);
+    border-radius: calc(var(--navigation-button-size-hover)/2);
+    text-shadow: 5px 5px 3px white;
+    font-size: larger;
+    line-height: var(--navigation-button-size-hover);
 }
 
 main section {
