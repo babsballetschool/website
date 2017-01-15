@@ -16,7 +16,7 @@ body {
     color: var(--font-color);
     font-family: Georgia, Times New Roman, Times, serif;
     font-style: italic;
-    width: var(--global-width);
+    max-width: var(--global-width);
     margin-left: auto;
     margin-right: auto;
 }
