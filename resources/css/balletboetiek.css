@@ -75,6 +75,8 @@ header nav ul li {
     vertical-align: middle;
     line-height: var(--navigation-button-size);
     background-image: radial-gradient(ellipse farthest-corner at 50% 10%, white, #EFCEDB);
+    transition-property: all;
+    transition-duration: 150ms;
 }
 
 header nav ul li.wide-text {
