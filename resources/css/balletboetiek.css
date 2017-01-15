@@ -50,7 +50,7 @@ header address a::before, header address a::after {
     content: "'";
 }
 
-header nav ul {
+header nav ul, footer nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,7 +60,11 @@ header nav ul {
     min-height: calc(var(--navigation-button-size-hover) + 5px);
 }
 
-header nav ul li {
+footer nav ul {
+    justify-content: space-around;
+}
+
+header nav ul li, footer nav ul li {
     display: inline-block;
     width: var(--navigation-button-size);
     height: var(--navigation-button-size);
@@ -83,7 +87,7 @@ header nav ul li.wide-text {
     font-size: 90%;
 }
 
-header nav ul li:hover {
+header nav ul li:hover, footer nav ul li:hover {
     width: var(--navigation-button-size-hover);
     height: var(--navigation-button-size-hover);
     border-radius: calc(var(--navigation-button-size-hover)/2);
