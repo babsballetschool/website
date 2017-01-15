@@ -71,6 +71,7 @@ header nav ul li {
     text-align: center;
     vertical-align: middle;
     line-height: var(--navigation-button-size);
+    background-image: radial-gradient(ellipse farthest-corner at 50% 10%, white, #EFCEDB);
 }
 
 main section {
