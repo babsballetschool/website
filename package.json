@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Balletboetiek/website/issues"
   },
-  "homepage": "https://github.com/Balletboetiek/website#readme"
+  "homepage": "https://github.com/Balletboetiek/website#readme",
+  "devDependencies": {
+    "punch": "^0.5.46"
+  }
 }
