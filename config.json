@@ -1,17 +1,23 @@
 {
-	"template_dir": "templates", 
-	"content_dir": "contents",
-	"output_dir": "output",
+	  "template_dir": "templates",
+	  "content_dir": "contents",
+	  "output_dir": "output",
 
-	"server": { 
-		"port": 9009
-	},
+	  "server": {
+		    "port": 9009
+	  },
 
-	"bundles": {
-		"/css/all.css": [
-			"/css/normalize.css",	
-			"/css/main.css",
-			"/css/site.less"
-		]	
-	}
+	  "bundles": {
+		    "/css/all.css": [
+			      "/css/normalize.css",
+			      "/css/main.css",
+			      "/css/site.less"
+		    ]
+	  },
+
+    "plugins": {
+        "parsers": {
+            ".dashes": "./src/punch-dashes-markdown-parser.js"
+        }
+    }
 }
