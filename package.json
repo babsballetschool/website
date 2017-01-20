@@ -25,5 +25,8 @@
   "homepage": "https://github.com/Balletboetiek/website#readme",
   "devDependencies": {
     "punch": "^0.5.46"
+  },
+  "dependencies": {
+    "js-yaml": "^3.7.0"
   }
 }
