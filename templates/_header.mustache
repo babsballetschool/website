@@ -16,19 +16,9 @@
             </address>
             <nav>
                 <ul>
-                    <li>home</li>
-                    <li>wie?</li>
-                    <li>waar?</li>
-                    <li>wanneer?</li>
-                    <li>hoeveel?</li>
-                    <li>contact</li>
-                    <li class="wide-text">inschrijven</li>
-                    <li>ballet</li>
-                    <li>flamenco</li>
-                    <li>jazz</li>
-                    <li>modern</li>
-                    <li>kleding</li>
-                    <li>foto's</li>
+                    {{ #navigation }}
+                    <li>{{{ label }}}</li>
+                    {{ /navigation }}
                 </ul>
             </nav>
         </header>

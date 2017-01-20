@@ -1,8 +1,17 @@
 {
-	"site-title": "Tutorial",
-	"footer-text": "Built with <a href=\"http://laktek.github.com/punch\">Punch</a>",
-	  "navbar": [
-        { "label": "Home", "href": "/" },
-        { "label": "About", "href": "/about" }
+	"navigation": [
+      { "label": "home", "href": "/" },
+      { "label": "wie?", "href": "/todo" },
+      { "label": "waar?", "href": "/todo" },
+      { "label": "wanneer?", "href": "/todo" },
+      { "label": "hoeveel?", "href": "/todo" },
+      { "label": "contact", "href": "/todo" },
+      { "label": "inschrijven", "href": "/todo" },
+      { "label": "ballet", "href": "/todo" },
+      { "label": "flamenco", "href": "/todo" },
+      { "label": "jazz", "href": "/todo" },
+      { "label": "modern", "href": "/todo" },
+      { "label": "kleding", "href": "/todo" },
+      { "label": "foto's", "href": "/todo" }
 	]
 }
