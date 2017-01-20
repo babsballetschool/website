@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/Balletboetiek/website#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
     "punch": "^0.5.46"
   },
   "dependencies": {
