@@ -60,6 +60,11 @@ header nav ul, footer nav ul {
     min-height: calc(var(--navigation-button-size-hover) + 5px);
 }
 
+header nav ul li a, footer nav ul li a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
 footer nav ul {
     justify-content: space-around;
 }
