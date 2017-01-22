@@ -26,6 +26,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
-    "punch": "^0.5.46"
+    "punch": "^0.5.46",
+    "travis-encrypt": "^2.1.1"
   }
 }
