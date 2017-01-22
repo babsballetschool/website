@@ -7,6 +7,8 @@ branches:
 script:
   - npm test
   - npm run-script generate
+after_success:
+  - bash deploy-site.sh
 env:
   global:
     - secure: >-
