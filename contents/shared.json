@@ -1,17 +1,17 @@
 {
 	"navigation": [
-      { "label": "home", "href": "/" },
-      { "label": "wie?", "href": "/todo" },
-      { "label": "waar?", "href": "/todo" },
-      { "label": "wanneer?", "href": "/todo" },
-      { "label": "hoeveel?", "href": "/todo" },
-      { "label": "contact", "href": "/todo" },
-      { "label": "inschrijven", "href": "/todo" },
-      { "label": "ballet", "href": "/todo" },
-      { "label": "flamenco", "href": "/todo" },
-      { "label": "jazz", "href": "/todo" },
-      { "label": "modern", "href": "/todo" },
-      { "label": "kleding", "href": "/todo" },
-      { "label": "foto's", "href": "/todo" }
+      { "label": "home", "href": "index" },
+      { "label": "wie?", "href": "todo" },
+      { "label": "waar?", "href": "todo" },
+      { "label": "wanneer?", "href": "todo" },
+      { "label": "hoeveel?", "href": "todo" },
+      { "label": "contact", "href": "todo" },
+      { "label": "inschrijven", "href": "todo" },
+      { "label": "ballet", "href": "todo" },
+      { "label": "flamenco", "href": "todo" },
+      { "label": "jazz", "href": "todo" },
+      { "label": "modern", "href": "todo" },
+      { "label": "kleding", "href": "todo" },
+      { "label": "foto's", "href": "todo" }
 	]
 }
