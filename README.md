@@ -1,4 +1,4 @@
-# website
+# website [![Build Status](https://travis-ci.org/Balletboetiek/website.svg?branch=master)](https://travis-ci.org/Balletboetiek/website)
 de Balletboetiek website.
 
 ## Setup
