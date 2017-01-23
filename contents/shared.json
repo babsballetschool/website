@@ -2,7 +2,7 @@
 	"navigation": [
       { "label": "home", "href": "index" },
       { "label": "wie?", "href": "wie" },
-      { "label": "waar?", "href": "todo" },
+      { "label": "waar?", "href": "waar" },
       { "label": "wanneer?", "href": "todo" },
       { "label": "hoeveel?", "href": "todo" },
       { "label": "contact", "href": "todo" },
