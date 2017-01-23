@@ -7,7 +7,7 @@
       { "label": "hoeveel?", "href": "hoeveel" },
       { "label": "contact", "href": "contact" },
       { "label": "inschrijven", "href": "inschrijven" },
-      { "label": "ballet", "href": "todo" },
+      { "label": "ballet", "href": "ballet" },
       { "label": "flamenco", "href": "todo" },
       { "label": "jazz", "href": "todo" },
       { "label": "modern", "href": "todo" },
