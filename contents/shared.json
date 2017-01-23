@@ -3,7 +3,7 @@
       { "label": "home", "href": "index" },
       { "label": "wie?", "href": "wie" },
       { "label": "waar?", "href": "waar" },
-      { "label": "wanneer?", "href": "todo" },
+      { "label": "wanneer?", "href": "wanneer" },
       { "label": "hoeveel?", "href": "todo" },
       { "label": "contact", "href": "todo" },
       { "label": "inschrijven", "href": "todo" },
