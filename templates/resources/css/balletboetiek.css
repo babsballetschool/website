@@ -113,6 +113,14 @@ main section {
     margin-bottom: var(--section-margin-bottom);
 }
 
+main section h1 {
+    font-size: 115%;
+}
+
+main section h2 {
+    font-size: 105%;
+}
+
 main section p {
     color: var(--section-color);
 }
