@@ -16,6 +16,7 @@
 	],
   "links": [
       { "label": "links", "href": "links" },
-      { "label": "regels", "href": "regels" }
+      { "label": "regels", "href": "regels" },
+      { "label": "facebook", "href": "https://www.facebook.com/babs.balletboetiek" }
   ]
 }
