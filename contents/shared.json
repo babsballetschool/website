@@ -8,7 +8,7 @@
       { "label": "contact", "href": "contact" },
       { "label": "inschrijven", "href": "inschrijven" },
       { "label": "ballet", "href": "ballet" },
-      { "label": "flamenco", "href": "flamenco" },
+      { "label": "flamenco", "href": "flamenco", "class": "flamenco" },
       { "label": "jazz", "href": "jazz" },
       { "label": "modern", "href": "modern" },
       { "label": "kleding", "href": "kleding" },
