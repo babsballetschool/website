@@ -130,3 +130,7 @@ main section h3 {
 main section p {
     color: var(--section-color);
 }
+
+main section a {
+    color: var(--font-color);
+}
