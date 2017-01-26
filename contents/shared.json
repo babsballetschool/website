@@ -13,5 +13,9 @@
       { "label": "modern", "href": "modern" },
       { "label": "kleding", "href": "kleding" },
       { "label": "foto's", "href": "fotos" }
-	]
+	],
+  "links": [
+      { "label": "links", "href": "links" },
+      { "label": "regels", "href": "regels" }
+  ]
 }

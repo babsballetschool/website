@@ -1,8 +1,9 @@
         <footer>
             <nav>
                 <ul>
-                    <li>links</li>
-                    <li>regels</li>
+                    {{ #links }}
+                    <li><a href="{{{ href }}}">{{{ label }}}</a></li>
+                    {{ /links }}
                 </ul>
             </nav>
         </footer>
