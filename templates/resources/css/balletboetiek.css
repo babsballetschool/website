@@ -156,6 +156,6 @@ main section a {
     color: var(--font-color);
 }
 
-main section ul {
+main section ul, main section table {
     color: black;
 }
