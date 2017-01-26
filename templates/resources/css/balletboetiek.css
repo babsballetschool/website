@@ -134,3 +134,7 @@ main section p {
 main section a {
     color: var(--font-color);
 }
+
+main section ul {
+    color: black;
+}
