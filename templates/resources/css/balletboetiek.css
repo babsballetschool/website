@@ -121,7 +121,6 @@ main div.where span {
     font-weight: bold;
 }
 
-
 main section:first-of-type {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -158,6 +157,10 @@ main section p {
 
 main section a {
     color: var(--font-color);
+}
+
+main section img {
+    border-radius: 50%;
 }
 
 main section ul, main section table {
