@@ -159,8 +159,36 @@ main section a {
     color: var(--font-color);
 }
 
+main section {
+    position: relative;
+    min-height: 160px;
+}
+
 main section img {
     border-radius: 50%;
+    position: absolute;
+    left: var(--section-border-radius);
+    top: var(--section-border-radius);
+}
+
+main section img:nth-of-type(2) {
+    top: calc(var(--section-border-radius) + (2 - 1)*(166px + 10px));
+}
+
+main section img:nth-of-type(3) {
+    top: calc(var(--section-border-radius) + (3 - 1)*(166px + 10px));
+}
+
+main section img:nth-of-type(4) {
+    top: calc(var(--section-border-radius) + (4 - 1)*(166px + 10px));
+}
+
+main section img:nth-of-type(5) {
+    top: calc(var(--section-border-radius) + (5 - 1)*(166px + 10px));
+}
+
+main section img:nth-of-type(6) {
+    top: calc(var(--section-border-radius) + (6 - 1)*(166px + 10px));
 }
 
 main section ul, main section table {
