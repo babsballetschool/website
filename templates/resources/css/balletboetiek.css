@@ -2,20 +2,36 @@
     --global-width: 1200px;
     --background-color: #FFF2FF;
     --font-color: #990000;
+    --font-family: Georgia, Times New Roman, Times, serif;
+    --font-style: italic;
+    --header-h1-size: 300%;
+    --header-h2-size: 200%;
+    --header-address-size; 150%;
+    --navigation-font-size: 100%;
     --navigation-border-color: #FDAEB6;
+    --navigation-border-width: 2px;
     --navigation-button-size: 60px;
     --navigation-button-size-hover: 65px;
+    --navigation-text-shadow: 5px 5px 3px white;
     --section-color: #000000;
     --section-background: #FFFFFF;
     --section-border-radius: 30px;
+    --section-border-style: solid;
+    --section-border-width: 1px;
+    --section-padding-left: 20%;
     --section-margin-bottom: 20px;
+    --section-h1-size: 115%;
+    --section-h2:size: 105%;
+    --section-h3:size: 102%;
+    --section-min-height: 160px;
+    --section-image-space: 10px;
 }
 
 body {
     background-color: var(--background-color);
     color: var(--font-color);
-    font-family: Georgia, Times New Roman, Times, serif;
-    font-style: italic;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     max-width: var(--global-width);
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +46,7 @@ header h1, header h2 {
 }
 
 header h1 {
-    font-size: 300%;
+    font-size: var(--header-h1-size);
     line-height: 0;
 }
 
@@ -39,11 +55,11 @@ header h1::before, header h1::after {
 }
 
 header h2 {
-    font-size: 200%;
+    font-size: var(--header-h2-size);
 }
 
 header address {
-    font-size: 150%;
+    font-size: var(--header-address-size);
 }
 
 header address a::before, header address a::after {
@@ -79,10 +95,10 @@ header nav ul li, footer nav ul li {
     width: var(--navigation-button-size);
     height: var(--navigation-button-size);
     list-style: none;
-    font-size: 100%;
+    font-size: var(--navigation-font-size);
     font-style: normal;
     border-color: var(--navigation-border-color);
-    border-width: 2px;
+    border-width: var(--navigation-border-width);
     border-style: solid;
     border-radius: calc(var(--navigation-button-size)/2);
     text-align: center;
@@ -101,7 +117,7 @@ header nav ul li:hover, footer nav ul li:hover {
     width: var(--navigation-button-size-hover);
     height: var(--navigation-button-size-hover);
     border-radius: calc(var(--navigation-button-size-hover)/2);
-    text-shadow: 5px 5px 3px white;
+    text-shadow: var(--navigation-text-shadow);
     font-size: larger;
     line-height: var(--navigation-button-size-hover);
 }
@@ -111,9 +127,9 @@ main div.where {
     border-radius: var(--section-border-radius);
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    border-style: solid;
+    border-style: var(--section-border-style);
     border-color: var(--section-background);
-    border-width: 1px;
+    border-width: var(--section-border-width);
     padding-left: var(--section-border-radius);
 }
 
@@ -129,24 +145,24 @@ main section:first-of-type {
 main section {
     background: var(--section-background);
     border-radius: var(--section-border-radius);
-    border-style: solid;
+    border-style: var(--section-border-style);
     border-color: var(--section-background);
-    border-width: 1px;
+    border-width: var(section-border-width);
     padding: var(--section-border-radius);
-    padding-left: 20%;
+    padding-left: var(--section-padding-left);
     margin-bottom: var(--section-margin-bottom);
 }
 
 main section h1 {
-    font-size: 115%;
+    font-size: var(--section-h1-size);
 }
 
 main section h2 {
-    font-size: 105%;
+    font-size: var(--section-h2-size);
 }
 
 main section h3 {
-    font-size: 102%;
+    font-size: var(--section-h3-size);
     color: black;
 }
 
@@ -161,40 +177,40 @@ main section a {
 
 main section {
     position: relative;
-    min-height: 160px;
+    min-height: var(--section-min-height);
 }
 
 main section img {
-    border-radius: calc(160px/2);
+    border-radius: calc(var(--section-min-height)/2);
     position: absolute;
     left: var(--section-border-radius);
     top: var(--section-border-radius);
-    max-width: 160px;
-    max-height: 160px;
-    min-width: 160px;
-    max-height: 160px;
+    max-width: var(--section-min-height);
+    max-height: var(--section-min-height);
+    min-width: var(--section-min-height);
+    max-height: var(--section-min-height);
     width: auto;
     height: auto;
 }
 
 main section img:nth-of-type(2) {
-    top: calc(var(--section-border-radius) + (2 - 1)*(160px + 10px));
+    top: calc(var(--section-border-radius) + (2 - 1)*(var(--section-min-height) + var(--section-image-space)));
 }
 
 main section img:nth-of-type(3) {
-    top: calc(var(--section-border-radius) + (3 - 1)*(160px + 10px));
+    top: calc(var(--section-border-radius) + (3 - 1)*(var(--section-min-height) + var(--section-image-space)));
 }
 
 main section img:nth-of-type(4) {
-    top: calc(var(--section-border-radius) + (4 - 1)*(160px + 10px));
+    top: calc(var(--section-border-radius) + (4 - 1)*(var(--section-min-height) + var(--section-image-space)));
 }
 
 main section img:nth-of-type(5) {
-    top: calc(var(--section-border-radius) + (5 - 1)*(160px + 10px));
+    top: calc(var(--section-border-radius) + (5 - 1)*(var(--section-min-height) + var(--section-image-space)));
 }
 
 main section img:nth-of-type(6) {
-    top: calc(var(--section-border-radius) + (6 - 1)*(160px + 10px));
+    top: calc(var(--section-border-radius) + (6 - 1)*(var(--section-min-height) + var(--section-image-space)));
 }
 
 main section ul, main section table {
