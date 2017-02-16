@@ -8,11 +8,6 @@
 	  },
 
 	  "bundles": {
-		    "/css/all.css": [
-			      "/css/normalize.css",
-			      "/css/main.css",
-			      "/css/site.less"
-		    ]
 	  },
 
     "plugins": {
