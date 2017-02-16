@@ -2,6 +2,12 @@
 de Balletboetiek website.
 
 ## Setup
-This website is created with [Punch][punch].
+This website is created with [Punch][punch]. Run
+
+```shell
+npm start
+```
+
+To start a server on `http://localhost:9009`
 
 [punch]: http://laktek.github.io/punch/
