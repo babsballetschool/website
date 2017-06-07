@@ -195,6 +195,10 @@ main section img {
     height: auto;
 }
 
+main section .galleria img {
+    border-radius: 0;
+}
+
 main section img:nth-of-type(2) {
     top: calc(var(--section-border-radius) + (2 - 1)*(var(--section-min-height) + var(--section-image-space)));
 }

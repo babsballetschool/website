@@ -1,18 +1,18 @@
 {
 	"navigation": [
-      { "label": "home", "href": "index" },
-      { "label": "wie?", "href": "wie" },
-      { "label": "waar?", "href": "waar" },
-      { "label": "wanneer?", "href": "wanneer" },
-      { "label": "hoeveel?", "href": "hoeveel" },
-      { "label": "contact", "href": "contact" },
-      { "label": "proefles", "href": "proefles" },
-      { "label": "ballet", "href": "ballet" },
-      { "label": "flamenco", "href": "flamenco", "class": "flamenco" },
-      { "label": "jazz", "href": "jazz" },
-      { "label": "modern", "href": "modern" },
-      { "label": "kleding", "href": "kleding" },
-      { "label": "foto's", "href": "fotos" }
+      { "label": "home", "href": "/index" },
+      { "label": "wie?", "href": "/wie" },
+      { "label": "waar?", "href": "/waar" },
+      { "label": "wanneer?", "href": "/wanneer" },
+      { "label": "hoeveel?", "href": "/hoeveel" },
+      { "label": "contact", "href": "/contact" },
+      { "label": "proefles", "href": "/proefles" },
+      { "label": "ballet", "href": "/ballet" },
+      { "label": "flamenco", "href": "/flamenco", "class": "flamenco" },
+      { "label": "jazz", "href": "/jazz" },
+      { "label": "modern", "href": "/modern" },
+      { "label": "kleding", "href": "/kleding" },
+      { "label": "foto's", "href": "/fotos" }
 	],
   "links": [
       { "label": "links", "href": "links" },

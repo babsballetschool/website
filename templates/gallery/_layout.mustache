@@ -1,0 +1,26 @@
+{{> header }}
+        <main>
+            <div class="where"><span>Gallery</div>
+            <section>
+                <h1>{{ title }}</h1>
+                <div class="galleria">
+                    {{#photos}}
+                    <img src="{{{ src }}}" data-title="{{ title }}" data-description="{{ description }}"/>
+                    {{/photos}}
+                </div>
+            </section>
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+        <script>
+            (function() {
+                Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+                Galleria.configure({
+                    width: 640,
+                    height: 480,
+                });
+                Galleria.run('.galleria');
+            }());
+        </script>
+{{> footer }}
+

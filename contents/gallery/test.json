@@ -1,0 +1,9 @@
+{
+    "title": "Test Gallery",
+    "photos": [
+        { "src": "http://placehold.it/640x480", "title": "A", "description": "a picture" },
+        { "src": "http://placehold.it/480x640", "title": "B" },
+        { "src": "http://placehold.it/480x480", "description": "an other picture" },
+        { "src": "http://placehold.it/640x640" }
+    ]
+}
