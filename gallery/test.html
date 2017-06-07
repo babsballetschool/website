@@ -34,19 +34,29 @@
             </nav>
         </header>
         <main>
-            <div class="where"><span>home</span></div>
-            <section><h1 id="kerstvakantie">Kerstvakantie</h1>
-<p>Van <strong>26 december 2016 t/m 6 januari 2017</strong> is het kerstvakantie, er zijn dan geen lessen.</p>
-<p>Voor iedereen fijne kerstdagen en een super dansant 2017!</p>
-</section><section><h1 id="dansdag-19-februari-2017">Dansdag 19 februari 2017</h1>
-<p>Alvast voor op de nieuwe kalender...</p>
-<p>zondag 19 februari Dansdag bij de Balletboetiek.</p>
-<p>met workshops en gastlessen dansen we de dag door!</p>
-<p>binnenkort meer informatie!</p>
-</section><section><h1 id="rooster-2016-2017">Rooster 2016-2017</h1>
-<p><a href="wanneer">Rooster</a> voor 2016-2017. Let op want er zijn weer enkele dagen en tijden veranderd. </p>
-</section>
+            <div class="where"><span>Gallery</div>
+            <section>
+                <h1>Test Gallery</h1>
+                <div class="galleria">
+                    <img src="http://placehold.it/640x480" data-title="A" data-description="a picture"/>
+                    <img src="http://placehold.it/480x640" data-title="B" data-description=""/>
+                    <img src="http://placehold.it/480x480" data-title="Test Gallery" data-description="an other picture"/>
+                    <img src="http://placehold.it/640x640" data-title="Test Gallery" data-description=""/>
+                </div>
+            </section>
         </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+        <script>
+            (function() {
+                Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+                Galleria.configure({
+                    width: 640,
+                    height: 480,
+                });
+                Galleria.run('.galleria');
+            }());
+        </script>
         <footer>
             <nav>
                 <ul>
