@@ -1,1 +1,157 @@
-{ "here": "wanneer" }
+{ "here": "wanneer",
+  "timetable": [
+      { "time": { "start": "13:30", "end": "14:15"},
+        "days": {
+            "monday": {},
+            "tuesday": {},
+            "wednesday": { "class": "K1", "description": "Kleuter ballet", "notes": ["4-5 jaar"], "teacher": "Babs" },
+            "thursday": {},
+            "friday": {}
+        }
+      },
+      { "time": { "start": "14:15", "end": "15:15"},
+        "days": {
+            "monday": {},
+            "tuesday": {},
+            "wednesday": { "class": "K2", "description": "Kinder ballet", "notes": ["vanaf 6 jaar"], "teacher": "Babs" },
+            "thursday": {},
+            "friday": {}
+        }
+      },
+      { "time": { "start": "15:00", "end": "15:45"},
+        "days": {
+            "monday": {},
+            "tuesday": {},
+            "wednesday": {},
+            "thursday": {},
+            "friday": { "class": "K1", "description": "Kleuter ballet", "notes": ["4-5 jaar"], "teacher": "Britt" }
+        }
+      },
+      { "time": { "start": "15:30", "end": "16:30"},
+        "days": {
+            "monday": {},
+            "tuesday": {},
+            "wednesday": { "class": "K2", "description": "Kinder ballet", "notes": ["vanaf 6 jaar"], "teacher": "Babs" },
+            "thursday": { "class": "B1", "description": "Klassiek ballet", "notes": ["vanaf 10 jaar"], "teacher": "Babs" },
+            "friday": {}
+        }
+      },
+      { "time": { "start": "15:45", "end": "16:45"},
+        "days": {
+            "monday": {},
+            "tuesday": { "class": "K2", "description": "Kinder ballet", "notes": ["6-7 jaar"], "teacher": "Babs" },
+            "wednesday": {},
+            "thursday": {},
+            "friday": { "class": "J", "description": "Jazz dance", "notes": ["vanaf 8 jaar"], "teacher": "Britt" }
+        }
+      },
+      { "time": { "start": "16:30", "end": "17:30"},
+        "days": {
+            "monday": {},
+            "tuesday": {},
+            "wednesday": { "class": "K4", "description": "Kinder ballet", "notes": ["8-9 jaar"], "teacher": "Babs" },
+            "thursday": { "class": "B2", "description": "Klassiek ballet", "notes": ["t/m 12 jaar"], "teacher": "Babs" },
+            "friday": {}
+        }
+      },
+      { "time": { "start": "16:45", "end": "17:45"},
+        "days": {
+            "monday": {},
+            "tuesday": { "class": "K4", "description": "Kinder ballet", "notes": ["8-9 jaar"], "teacher": "Babs" },
+            "wednesday": {},
+            "thursday": {},
+            "friday": {}
+        }
+      },
+      { "time": { "start": "17:15", "end": "18:30"},
+        "days": {
+            "monday": {},
+            "tuesday": {},
+            "wednesday": {},
+            "thursday": {},
+            "friday": { "class": "B8", "description": "Klassiek ballet", "notes": ["16+", "incl. Spitzen"], "teacher": "Babs" }
+        }
+      },
+      { "time": { "start": "17:30", "end": "18:30"},
+        "days": {
+            "monday": {},
+            "tuesday": {},
+            "wednesday": { "class": "K5", "description": "Kinder ballet", "notes": ["t/m 12 jaar", "afsluitend jaar"], "teacher": "Babs" },
+            "thursday": {},
+            "friday": {}
+        }
+      },
+      { "time": { "start": "17:45", "end": "18:45"},
+        "days": {
+            "monday": {},
+            "tuesday": {},
+            "wednesday": {},
+            "thursday": { "class": "M1", "description": "Modern Beginners", "notes": ["tieners"], "teacher": "Nigel" },
+            "friday": {}
+        }
+      },
+      { "time": { "start": "18:45", "end": "20:00"},
+        "days": {
+            "monday": {},
+            "tuesday": {},
+            "wednesday": {},
+            "thursday": { "class": "B3", "description": "Klassiek ballet", "notes": ["13+", "incl. Spitzen"], "teacher": "Babs" },
+            "friday": { "class": "B5", "description": "Klassiek ballet", "notes": ["volwassene", "evt. Spitzen"], "teacher": "Babs" }
+        }
+      },
+      { "time": { "start": "19:30", "end": "20:30"},
+        "days": {
+            "monday": { "class": "M2", "description": "Modern Beginners", "notes": ["volwassene"], "teacher": "Hellen" },
+            "tuesday": {},
+            "wednesday": {},
+            "thursday": {},
+            "friday": {}
+        }
+      },
+      { "time": { "start": "19:15", "end": "20:15"},
+        "days": {
+            "monday": {},
+            "tuesday": { "class": "B5", "description": "Klassiek ballet", "notes": ["Volwassene"], "teacher": "Babs" },
+            "wednesday": {},
+            "thursday": {},
+            "friday": {}
+        }
+      },
+      { "time": { "start": "19:15", "end": "20:30"},
+        "days": {
+            "monday": {},
+            "tuesday": { "class": "B6", "description": "Klassiek ballet", "notes": ["Volwassene", "incl. Spitzen"], "teacher": "Babs" },
+            "wednesday": {},
+            "thursday": {},
+            "friday": {}
+        }
+      },
+      { "time": { "start": "20:30", "end": "21:30"},
+        "days": {
+            "monday": { "class": "M3", "description": "Modern Beginners", "notes": ["volwassene"], "teacher": "Hellen" },
+            "tuesday": {},
+            "wednesday": {},
+            "thursday": {},
+            "friday": {}
+        }
+      },
+      { "time": { "start": "20:00", "end": "21:15"},
+        "days": {
+            "monday": {},
+            "tuesday": {},
+            "wednesday": {},
+            "thursday": { "class": "B10", "description": "Klassiek ballet", "notes": ["volwassene", "incl. Spitzen"], "teacher": "Babs" },
+            "friday": {}
+        }
+      },
+      { "time": { "start": "20:15", "end": "21:15"},
+        "days": {
+            "monday": {},
+            "tuesday": { "class": "B9", "description": "Klassiek ballet", "notes": ["volwassene"], "teacher": "Babs" },
+            "wednesday": {},
+            "thursday": {},
+            "friday": { "class": "F2", "description": "Flamenco", "notes": ["volwassene"], "teacher": "Babs" }
+        }
+      }
+  ]
+}
