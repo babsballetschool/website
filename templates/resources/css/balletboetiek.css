@@ -26,6 +26,7 @@
     --section-h3:size: 102%;
     --section-min-height: 160px;
     --section-image-space: 10px;
+    --timetable-border-color: #990000;
 }
 
 body {
@@ -221,4 +222,25 @@ main section img:nth-of-type(6) {
 
 main section ul, main section table {
     color: black;
+}
+
+main section table.timetable, main section table.timetable th, main section table.timetable td {
+    border-color: var(--timetable-border-color);
+    border-width: 1px;
+    border-style: solid;
+}
+
+main section table.timetable th {
+    background-color: var(--timetable-border-color);
+    color: white;
+    min-width: 7em;
+}
+
+main section table.timetable td, main section table.timetable h3, main section table.timetable p, main section table.timetable li {
+    text-align: center;
+}
+
+main section table.timetable ul {
+    list-style-type: none;
+    padding-left: 0;
 }
