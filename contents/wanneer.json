@@ -112,7 +112,7 @@
       { "time": { "start": "19:15", "end": "20:15"},
         "days": {
             "monday": {},
-            "tuesday": { "class": "B5", "description": "Klassiek ballet", "notes": [{ "text": "Volwassene" }], "teacher": "Babs" },
+            "tuesday": { "class": "BG2", "description": "Klassiek ballet", "notes": [{ "text": "Volwassene" }], "teacher": "Babs" },
             "wednesday": {},
             "thursday": {},
             "friday": {}
