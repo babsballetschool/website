@@ -19,13 +19,13 @@ git init
 git config user.name "Daan van Berkel"
 git config user.email "daan@fifth-postulate.nl"
 
-git remote add upstream "https://$GH_TOKEN@github.com/deBalletboetiek/website.git"
+git remote add upstream "https://$GH_TOKEN@github.com/deBalletboetiek/deBalletboetiek.github.io.git"
 git fetch upstream
-git reset upstream/gh-pages
+git reset upstream/master
 
 touch .
 touch .nojekyll
 
 git add -A .
 git commit -m "rebuild pages at ${rev}"
-git push -q upstream HEAD:gh-pages
+git push -q upstream HEAD:master
