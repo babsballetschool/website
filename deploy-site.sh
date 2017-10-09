@@ -19,7 +19,7 @@ git init
 git config user.name "Daan van Berkel"
 git config user.email "daan@fifth-postulate.nl"
 
-git remote add upstream "https://$GH_TOKEN@github.com/deBalletboetiek/deBalletboetiek.github.io.git"
+git remote add upstream "https://$GH_TOKEN@github.com/babsballetschool/babsballetschool.github.io.git"
 git fetch upstream
 git reset upstream/master
 
