@@ -5,9 +5,16 @@ Babs balletschool website.
 This website is created with [Punch][punch]. Run
 
 ```shell
-npm start
+npm generate
 ```
 
-To start a server on `http://localhost:9009`
+To generate static files for this project.
+
+## Serve Locally
+If you want to take a look, after the `npm generate` command enter the `out` directory and run
+
+```shell
+python -mSimpleHTTPServer
+```
 
 [punch]: http://laktek.github.io/punch/
