@@ -244,3 +244,12 @@ main section table.timetable ul {
     list-style-type: none;
     padding-left: 0;
 }
+
+main section table.timetable h3, main section table.timetable p, main section table.timetable ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main section table.timetable tbody td {
+    font-size: 75%;
+}
