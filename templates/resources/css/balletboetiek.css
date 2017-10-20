@@ -224,10 +224,16 @@ main section ul, main section table {
     color: black;
 }
 
+main section table.timetable {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
 main section table.timetable, main section table.timetable th, main section table.timetable td {
     border-color: var(--timetable-border-color);
     border-width: 1px;
     border-style: solid;
+    margin: 0;
 }
 
 main section table.timetable th {
