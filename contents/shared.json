@@ -11,10 +11,10 @@
       { "label": "flamenco", "href": "/flamenco.html", "class": "flamenco" },
       { "label": "jazz", "href": "/jazz.html" },
       { "label": "modern", "href": "/modern.html" },
-      { "label": "kleding", "href": "/kleding.html" },
-      { "label": "foto's", "href": "/fotos.html" }
+      { "label": "kleding", "href": "/kleding.html" }
 	],
   "links": [
+      { "label": "foto's", "href": "/fotos.html" },
       { "label": "links", "href": "/links.html" },
       { "label": "regels", "href": "/regels.html" },
       { "label": "facebook", "href": "https://www.facebook.com/babs.balletboetiek" }
