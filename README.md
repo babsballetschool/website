@@ -5,13 +5,13 @@ Babs balletschool website.
 This website is created with [Punch][punch]. Run
 
 ```shell
-npm generate
+npm run generate
 ```
 
 To generate static files for this project.
 
 ## Serve Locally
-If you want to take a look, after the `npm generate` command enter the `out` directory and run
+If you want to take a look, after the `npm run generate` command enter the `output` directory and run
 
 ```shell
 python -mSimpleHTTPServer
