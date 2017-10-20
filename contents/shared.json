@@ -6,7 +6,6 @@
       { "label": "wanneer?", "href": "/wanneer.html" },
       { "label": "hoeveel?", "href": "/hoeveel.html" },
       { "label": "contact", "href": "/contact.html" },
-      { "label": "proefles", "href": "/proefles.html" },
       { "label": "ballet", "href": "/ballet.html" },
       { "label": "flamenco", "href": "/flamenco.html", "class": "flamenco" },
       { "label": "jazz", "href": "/jazz.html" },
