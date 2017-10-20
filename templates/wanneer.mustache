@@ -17,13 +17,14 @@
                             <th>Woensdag</th>
                             <th>Donderdag</th>
                             <th>Vrijdag</th>
+                            <th>Docent</th>
                         </tr>
                     </thead>
                     <tbody>
                         {{#timetable}}
                             <tr>
                                 <td>{{ time.start }} - {{ time.end }}</td>
-                                {{#days}}
+                                {{#columns}}
                                 <td>
                                     {{#monday}}
                                         <h3>{{ class }}</h3>
@@ -32,7 +33,6 @@
                                             {{#notes}}
                                             <li>{{ text }}</li>
                                             {{/notes}}
-                                            {{#teacher}}<li>({{ teacher }})</li>{{/teacher}}
                                         </ul>
                                     {{/monday}}
                                 </td>
@@ -44,7 +44,6 @@
                                             {{#notes}}
                                             <li>{{ text }}</li>
                                             {{/notes}}
-                                            {{#teacher}}<li>({{ teacher }})</li>{{/teacher}}
                                         </ul>
                                     {{/tuesday}}
                                 </td>
@@ -56,7 +55,6 @@
                                             {{#notes}}
                                             <li>{{ text }}</li>
                                             {{/notes}}
-                                            {{#teacher}}<li>({{ teacher }})</li>{{/teacher}}
                                         </ul>
                                     {{/wednesday}}
                                 </td>
@@ -68,7 +66,6 @@
                                             {{#notes}}
                                             <li>{{ text }}</li>
                                             {{/notes}}
-                                            {{#teacher}}<li>({{ teacher }})</li>{{/teacher}}
                                         </ul>
                                     {{/thursday}}
                                 </td>
@@ -80,11 +77,17 @@
                                             {{#notes}}
                                             <li>{{ text }}</li>
                                             {{/notes}}
-                                            {{#teacher}}<li>({{ teacher }})</li>{{/teacher}}
                                         </ul>
                                     {{/friday}}
                                 </td>
-                                {{/days}}
+                                <td>
+                                    <ul class="teachers">
+                                        {{#teachers}}
+                                        <li>{{ name }}</li>
+                                        {{/teachers}}
+                                    </ul
+                                </td>
+                                {{/columns}}
                             </tr>
                         {{/timetable}}
                     </tbody>
