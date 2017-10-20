@@ -1,5 +1,5 @@
 # website [![Build Status](https://travis-ci.org/babsballetschool/website.svg?branch=master)](https://travis-ci.org/babsballetschool/website)
-Babs balletschool website.
+Babs Balletschool website.
 
 ## Setup
 This website is created with [Punch][punch]. Run
