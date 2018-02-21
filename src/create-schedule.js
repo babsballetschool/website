@@ -34,6 +34,9 @@ timetable
         var y = 2*padding_height + header_height + row_index * (padding_height + cell_height);
         var x = padding_width;
         doc.rect(x, y, cell_width, cell_height);
+        var text_y = y + cell_height/2 - font_size/3;
+        var time_text = row.time.start + "-" + row.time.end;
+        doc.text(time_text, x, text_y, { align: 'center', width: cell_width });
         ["monday", "tuesday", "wednesday", "thursday", "friday"].forEach(function(day, column_index){
             var x = padding_width + (column_index + 1) * (padding_width + cell_width);
             doc.rect(x, y, cell_width, cell_height);
