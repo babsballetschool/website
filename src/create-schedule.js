@@ -13,9 +13,9 @@ const font_size = 8;
 doc.font(font);
 doc.fontSize(font_size);
 
-const cell_width = 50;
+const cell_width = 95;
 const header_height = 10;
-const cell_height = 30;
+const cell_height = 39;
 const padding_width = 5;
 const padding_height = 3;
 
@@ -44,7 +44,7 @@ timetable
     });
 
 doc.rect(0, 0,
-         6 * (padding_width + cell_width) + padding_width,
+         6 * (paddingwidth + cell_width) + padding_width,
          timetable.length * (padding_height + cell_height) + 2*padding_height + header_height);
 doc.stroke();
 
