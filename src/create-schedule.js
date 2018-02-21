@@ -2,6 +2,8 @@ const fs = require('fs');
 
 const PDFDocument = require('pdfkit');
 
+var schedule = JSON.parse(fs.readFileSync('contents/wanneer.json'));
+
 var doc = new PDFDocument();
 doc.pipe(fs.createWriteStream('templates/resources/pdf/schedule.pdf'));
 
@@ -26,25 +28,7 @@ const padding_height = 3;
         doc.text(header, x, text_y, { align: 'center', width: cell_width });
     });
 
-const timetable = [{ "time": { "start": "13:30", "end": "14:15"},
-   "days": {
-       "monday": {},
-       "tuesday": {},
-       "wednesday": { "class": "K1", "description": "Kleuter ballet", "notes": [{ "text": "4-5 jaar" }], "teacher": "Babs" },
-       "thursday": {},
-       "friday": {}
-   }
- },
- { "time": { "start": "13:30", "end": "14:15"},
-   "days": {
-       "monday": {},
-       "tuesday": {},
-       "wednesday": { "class": "K1", "description": "Kleuter ballet", "notes": [{ "text": "4-5 jaar" }], "teacher": "Babs" },
-       "thursday": {},
-       "friday": {}
-   }
- }];
-
+const timetable = schedule.timetable;
 timetable
     .forEach(function(row, row_index){
         var y = 2*padding_height + header_height + row_index * (padding_height + cell_height);
