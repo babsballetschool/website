@@ -23,9 +23,9 @@ const padding_height = 3;
     .forEach(function(header, index){
         var x = padding_width + index * (cell_width + padding_width);
         var y = padding_height;
-        doc.rect(x, y, cell_width, header_height);
+        doc.rect(x, y, cell_width, header_height).fillAndStroke('#990000', '#990000');
         var text_y = y + header_height/2 - font_size/3;
-        doc.font('Times-Bold').text(header, x, text_y, { align: 'center', width: cell_width });
+        doc.fillColor('white').font('Times-Bold').text(header, x, text_y, { align: 'center', width: cell_width });
     });
 
 const timetable = schedule.timetable;
@@ -36,7 +36,7 @@ timetable
         doc.rect(x, y, cell_width, cell_height);
         var text_y = y + cell_height/2 - font_size/3;
         var time_text = row.time.start + "-" + row.time.end;
-        doc.font('Times-Roman').text(time_text, x, text_y, { align: 'center', width: cell_width });
+        doc.fillColor('black').font('Times-Roman').text(time_text, x, text_y, { align: 'center', width: cell_width });
         ["monday", "tuesday", "wednesday", "thursday", "friday"].forEach(function(day, column_index){
             var x = padding_width + (column_index + 1) * (padding_width + cell_width);
             doc.rect(x, y, cell_width, cell_height);
