@@ -14,7 +14,7 @@
         "columns": {
             "monday": {},
             "tuesday": {},
-            "wednesday": { "class": "K2", "description": "Kinder ballet", "notes": [{ "text": "vanaf 6 jaar", "teacher": "Babs"  }] },
+            "wednesday": { "class": "K2", "description": "Kinder ballet", "notes": [{ "text": "vanaf 6 jaar" }], "teacher": "Babs" },
             "thursday": {},
             "friday": {}
         }
