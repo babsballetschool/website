@@ -25,7 +25,7 @@ const padding_height = 3;
         var y = padding_height;
         doc.rect(x, y, cell_width, header_height);
         var text_y = y + header_height/2 - font_size/3;
-        doc.text(header, x, text_y, { align: 'center', width: cell_width });
+        doc.font('Times-Bold').text(header, x, text_y, { align: 'center', width: cell_width });
     });
 
 const timetable = schedule.timetable;
@@ -36,15 +36,15 @@ timetable
         doc.rect(x, y, cell_width, cell_height);
         var text_y = y + cell_height/2 - font_size/3;
         var time_text = row.time.start + "-" + row.time.end;
-        doc.text(time_text, x, text_y, { align: 'center', width: cell_width });
+        doc.font('Times-Roman').text(time_text, x, text_y, { align: 'center', width: cell_width });
         ["monday", "tuesday", "wednesday", "thursday", "friday"].forEach(function(day, column_index){
             var x = padding_width + (column_index + 1) * (padding_width + cell_width);
             doc.rect(x, y, cell_width, cell_height);
             var data = row.columns[day];
             if (data.hasOwnProperty('class')) {
                 var text_y = y + font_size/2;
-                doc.text(data.class + " (" + data.teacher + ")", x, text_y, { align: 'center', width: cell_width });
-                doc.moveDown(0.25).text(data.description, { align: 'center', width: cell_width });
+                doc.font('Times-Bold').text(data.class + " (" + data.teacher + ")", x, text_y, { align: 'center', width: cell_width });
+                doc.moveDown(0.25).font('Times-Roman').text(data.description, { align: 'center', width: cell_width });
             }
         });
     });
