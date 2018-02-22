@@ -5,20 +5,18 @@
         "columns": {
             "monday": {},
             "tuesday": {},
-            "wednesday": { "class": "K1", "description": "Kleuter ballet", "notes": [{ "text": "4-5 jaar" }] },
+            "wednesday": { "class": "K1", "description": "Kleuter ballet", "notes": [{ "text": "4-5 jaar" }], "teacher": "Babs" },
             "thursday": {},
-            "friday": {},
-            "teachers": [{ "name": "Babs" }]
+            "friday": {}
         }
       },
       { "time": { "start": "14:15", "end": "15:15"},
         "columns": {
             "monday": {},
             "tuesday": {},
-            "wednesday": { "class": "K2", "description": "Kinder ballet", "notes": [{ "text": "vanaf 6 jaar" }] },
+            "wednesday": { "class": "K2", "description": "Kinder ballet", "notes": [{ "text": "vanaf 6 jaar", "teacher": "Babs"  }] },
             "thursday": {},
-            "friday": {},
-            "teachers": [{ "name": "Babs" }]
+            "friday": {}
         }
       },
       { "time": { "start": "15:00", "end": "15:45"},
@@ -27,48 +25,43 @@
             "tuesday": {},
             "wednesday": {},
             "thursday": {},
-            "friday": { "class": "K1", "description": "Kleuter ballet", "notes": [{ "text": "4-5 jaar" }] },
-            "teachers": [{ "name": "Britt" }]
+            "friday": { "class": "K1", "description": "Kleuter ballet", "notes": [{ "text": "4-5 jaar" }], "teacher": "Britt"  }
         }
       },
       { "time": { "start": "15:30", "end": "16:30"},
         "columns": {
             "monday": {},
             "tuesday": {},
-            "wednesday": { "class": "K2", "description": "Kinder ballet", "notes": [{ "text": "vanaf 6 jaar" }] },
-            "thursday": { "class": "B1", "description": "Klassiek ballet", "notes": [{ "text": "vanaf 10 jaar" }] },
-            "friday": {},
-            "teachers": [{ "name": "Babs" }]
+            "wednesday": { "class": "K2", "description": "Kinder ballet", "notes": [{ "text": "vanaf 6 jaar" }], "teacher": "Babs" },
+            "thursday": { "class": "B1", "description": "Klassiek ballet", "notes": [{ "text": "vanaf 10 jaar" }], "teacher": "Babs" },
+            "friday": {}
         }
       },
       { "time": { "start": "15:45", "end": "16:45"},
         "columns": {
             "monday": {},
-            "tuesday": { "class": "K2", "description": "Kinder ballet", "notes": [{ "text": "6-7 jaar" }] },
+            "tuesday": { "class": "K2", "description": "Kinder ballet", "notes": [{ "text": "6-7 jaar" }], "teacher": "Babs" },
             "wednesday": {},
             "thursday": {},
-            "friday": { "class": "J", "description": "Jazz dance", "notes": [{ "text": "vanaf 8 jaar" }] },
-            "teachers": [{ "name": "Babs" }, { "name": "Britt" }]
+            "friday": { "class": "J", "description": "Jazz dance", "notes": [{ "text": "vanaf 8 jaar" }], "teacher": "Britt" }
         }
       },
       { "time": { "start": "16:30", "end": "17:30"},
         "columns": {
             "monday": {},
             "tuesday": {},
-            "wednesday": { "class": "K4", "description": "Kinder ballet", "notes": [{ "text": "8-9 jaar" }] },
-            "thursday": { "class": "B2", "description": "Klassiek ballet", "notes": [{ "text": "t/m 12 jaar" }] },
-            "friday": {},
-            "teachers": [{ "name": "Babs" }]
+            "wednesday": { "class": "K4", "description": "Kinder ballet", "notes": [{ "text": "8-9 jaar" }], "teacher": "Babs" },
+            "thursday": { "class": "B2", "description": "Klassiek ballet", "notes": [{ "text": "t/m 12 jaar" }], "teacher": "Babs" },
+            "friday": {}
         }
       },
       { "time": { "start": "16:45", "end": "17:45"},
         "columns": {
             "monday": {},
-            "tuesday": { "class": "K4", "description": "Kinder ballet", "notes": [{ "text": "8-9 jaar" }] },
+            "tuesday": { "class": "K4", "description": "Kinder ballet", "notes": [{ "text": "8-9 jaar" }], "teacher": "Babs" },
             "wednesday": {},
             "thursday": {},
-            "friday": {},
-            "teachers": [{ "name": "Babs" }]
+            "friday": {}
         }
       },
       { "time": { "start": "17:15", "end": "18:30"},
@@ -77,15 +70,14 @@
             "tuesday": {},
             "wednesday": {},
             "thursday": {},
-            "friday": { "class": "B8", "description": "Klassiek ballet", "notes": [{ "text": "16+" }, { "text": "incl. Spitzen" }] },
-            "teachers": [{ "name": "Babs" }]
+            "friday": { "class": "B8", "description": "Klassiek ballet", "notes": [{ "text": "16+" }, { "text": "incl. Spitzen" }], "teacher": "Babs" }
         }
       },
       { "time": { "start": "17:30", "end": "18:30"},
         "columns": {
             "monday": {},
             "tuesday": {},
-            "wednesday": { "class": "K5", "description": "Kinder ballet", "notes": [{ "text": "t/m 12 jaar" }, { "text": "afsluitend jaar" }] },
+            "wednesday": { "class": "K5", "description": "Kinder ballet", "notes": [{ "text": "t/m 12 jaar" }, { "text": "afsluitend jaar" }], "teacher": "Babs" },
             "thursday": {},
             "friday": {},
             "teachers": [{ "name": "Babs" }]
@@ -96,9 +88,8 @@
             "monday": {},
             "tuesday": {},
             "wednesday": {},
-            "thursday": { "class": "M1", "description": "Modern Beginners", "notes": [{ "text": "tieners" }] },
-            "friday": {},
-            "teachers": [{ "name": "Nigel" }]
+            "thursday": { "class": "M1", "description": "Modern Beginners", "notes": [{ "text": "tieners" }], "teacher": "Babs" },
+            "friday": {}
         }
       },
       { "time": { "start": "18:45", "end": "20:00"},
@@ -106,49 +97,44 @@
             "monday": {},
             "tuesday": {},
             "wednesday": {},
-            "thursday": { "class": "B3", "description": "Klassiek ballet", "notes": [{ "text": "13+" }, { "text": "incl. Spitzen" }] },
-            "friday": { "class": "B5", "description": "Klassiek ballet", "notes": [{ "text": "volwassene"}, { "text": "evt. Spitzen" }] },
-            "teachers": [{ "name": "Babs" }]
+            "thursday": { "class": "B3", "description": "Klassiek ballet", "notes": [{ "text": "13+" }, { "text": "incl. Spitzen" }], "teacher": "Babs" },
+            "friday": { "class": "B5", "description": "Klassiek ballet", "notes": [{ "text": "volwassene"}, { "text": "evt. Spitzen" }], "teacher": "Babs" }
         }
       },
       { "time": { "start": "19:30", "end": "20:30"},
         "columns": {
-            "monday": { "class": "M2", "description": "Modern Beginners", "notes": [{ "text": "volwassene" }] },
+            "monday": { "class": "M2", "description": "Modern Beginners", "notes": [{ "text": "volwassene" }], "teacher": "Helen" },
             "tuesday": {},
             "wednesday": {},
             "thursday": {},
-            "friday": {},
-            "teachers": [{ "name": "Hellen" }]
+            "friday": {}
         }
       },
       { "time": { "start": "19:15", "end": "20:15"},
         "columns": {
             "monday": {},
-            "tuesday": { "class": "BG2", "description": "Klassiek ballet", "notes": [{ "text": "Volwassene" }] },
+            "tuesday": { "class": "BG2", "description": "Klassiek ballet", "notes": [{ "text": "Volwassene" }], "teacher": "Babs" },
             "wednesday": {},
             "thursday": {},
-            "friday": {},
-            "teachers": [{ "name": "Babs" }]
+            "friday": {}
         }
       },
       { "time": { "start": "19:15", "end": "20:30"},
         "columns": {
             "monday": {},
-            "tuesday": { "class": "B6", "description": "Klassiek ballet", "notes": [{ "text": "Volwassene" }, { "text": "incl. Spitzen" }] },
+            "tuesday": { "class": "B6", "description": "Klassiek ballet", "notes": [{ "text": "Volwassene" }, { "text": "incl. Spitzen" }], "teacher": "Babs" },
             "wednesday": {},
             "thursday": {},
-            "friday": {},
-            "teachers": [{ "name": "Babs" }]
+            "friday": {}
         }
       },
       { "time": { "start": "20:30", "end": "21:30"},
         "columns": {
-            "monday": { "class": "M3", "description": "Modern Beginners", "notes": [{ "text": "volwassene" }] },
+            "monday": { "class": "M3", "description": "Modern Beginners", "notes": [{ "text": "volwassene" }], "teacher": "Helen" },
             "tuesday": {},
             "wednesday": {},
             "thursday": {},
-            "friday": {},
-            "teachers": [{ "name": "Hellen" }]
+            "friday": {}
         }
       },
       { "time": { "start": "20:00", "end": "21:15"},
@@ -156,19 +142,17 @@
             "monday": {},
             "tuesday": {},
             "wednesday": {},
-            "thursday": { "class": "B10", "description": "Klassiek ballet", "notes": [{ "text": "volwassene" }, { "text": "incl. Spitzen" }] },
-            "friday": {},
-            "teachers": [{ "name": "Babs" }]
+            "thursday": { "class": "B10", "description": "Klassiek ballet", "notes": [{ "text": "volwassene" }, { "text": "incl. Spitzen" }], "teacher": "Babs" },
+            "friday": {}
         }
       },
       { "time": { "start": "20:15", "end": "21:15"},
         "columns": {
             "monday": {},
-            "tuesday": { "class": "B9", "description": "Klassiek ballet", "notes": [{ "text": "volwassene" }] },
+            "tuesday": { "class": "B9", "description": "Klassiek ballet", "notes": [{ "text": "volwassene" }], "teacher": "Babs" },
             "wednesday": {},
             "thursday": {},
-            "friday": { "class": "F2", "description": "Flamenco", "notes": [{ "text": "volwassene" }] },
-            "teachers": [{ "name": "Babs" }]
+            "friday": { "class": "F2", "description": "Flamenco", "notes": [{ "text": "volwassene" }], "teacher": "Babs" }
         }
       }
   ]

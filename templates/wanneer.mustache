@@ -17,7 +17,6 @@
                             <th>Woensdag</th>
                             <th>Donderdag</th>
                             <th>Vrijdag</th>
-                            <th>Docent</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -27,7 +26,7 @@
                                 {{#columns}}
                                 <td>
                                     {{#monday}}
-                                        <h3>{{ class }}</h3>
+                                        <h3>{{ class }}{{#teacher}} ({{ teacher }}){{/teacher}}</h3>
                                         <p>{{ description }}</p>
                                         <ul>
                                             {{#notes}}
@@ -38,7 +37,7 @@
                                 </td>
                                 <td>
                                     {{#tuesday}}
-                                        <h3>{{ class }}</h3>
+                                        <h3>{{ class }}{{#teacher}} ({{ teacher }}){{/teacher}}</h3>
                                         <p>{{ description }}</p>
                                         <ul>
                                             {{#notes}}
@@ -49,7 +48,7 @@
                                 </td>
                                 <td>
                                     {{#wednesday}}
-                                        <h3>{{ class }}</h3>
+                                        <h3>{{ class }}{{#teacher}} ({{ teacher }}){{/teacher}}</h3>
                                         <p>{{ description }}</p>
                                         <ul>
                                             {{#notes}}
@@ -60,7 +59,7 @@
                                 </td>
                                 <td>
                                     {{#thursday}}
-                                        <h3>{{ class }}</h3>
+                                        <h3>{{ class }}{{#teacher}} ({{ teacher }}){{/teacher}}</h3>
                                         <p>{{ description }}</p>
                                         <ul>
                                             {{#notes}}
@@ -71,7 +70,7 @@
                                 </td>
                                 <td>
                                     {{#friday}}
-                                        <h3>{{ class }}</h3>
+                                        <h3>{{ class }}{{#teacher}} ({{ teacher }}){{/teacher}}</h3>
                                         <p>{{ description }}</p>
                                         <ul>
                                             {{#notes}}
@@ -79,13 +78,6 @@
                                             {{/notes}}
                                         </ul>
                                     {{/friday}}
-                                </td>
-                                <td>
-                                    <ul class="teachers">
-                                        {{#teachers}}
-                                        <li>{{ name }}</li>
-                                        {{/teachers}}
-                                    </ul
                                 </td>
                                 {{/columns}}
                             </tr>

@@ -7,7 +7,7 @@ var schedule = JSON.parse(fs.readFileSync('contents/wanneer.json'));
 var doc = new PDFDocument();
 doc.pipe(fs.createWriteStream('templates/resources/pdf/schedule.pdf'));
 
-const font = 'Times-Roman';
+const font = 'Times-Bold';
 const font_size = 8;
 
 doc.font(font);
@@ -40,7 +40,7 @@ timetable
         ["monday", "tuesday", "wednesday", "thursday", "friday"].forEach(function(day, column_index){
             var x = padding_width + (column_index + 1) * (padding_width + cell_width);
             doc.rect(x, y, cell_width, cell_height);
-            var data = row.days[day];
+            var data = row.columns[day];
             if (data.hasOwnProperty('class')) {
                 var text_y = y + font_size/2;
                 doc.text(data.class + " (" + data.teacher + ")", x, text_y, { align: 'center', width: cell_width });
