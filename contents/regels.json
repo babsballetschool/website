@@ -1,1 +1,4 @@
-{ "here": "regels" }
+{
+    "here": "regels",
+    "main-class": "rules"
+}

@@ -260,3 +260,7 @@ main section table.timetable h3, main section table.timetable p, main section ta
 main section table.timetable tbody td {
     font-size: 75%;
 }
+
+main.rules section h2 {
+    text-decoration-line: underline;
+}
