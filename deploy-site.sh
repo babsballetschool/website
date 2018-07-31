@@ -25,6 +25,9 @@ git reset upstream/master
 
 touch .
 touch .nojekyll
+cat > CNAME << EOF
+www.babsballetschool.nl
+EOF
 
 git add -A .
 git commit -m "rebuild pages at ${rev}"
