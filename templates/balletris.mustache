@@ -1,0 +1,12 @@
+{{> header }}
+        <main class="{{{ main-class }}}">
+            <div class="where"><span>{{{ here }}}</span></div>
+            <div id="playground" class="balletris"></div>
+        </main>
+        <script src="resources/js/balletris.js"></script>
+        <script>
+         var node = document.getElementById('playground');
+         Elm.Main.embed(node);
+        </script>
+{{> footer }}
+
