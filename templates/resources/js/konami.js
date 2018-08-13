@@ -39,5 +39,11 @@
         });
     };
 
-    window.konami = konami;
+    konami(function(){
+        var location = window.location;
+        window.location.href =
+            location.protocol + "//" +
+            location.host + "/" +
+            "balletris.html";
+    });
 })();
