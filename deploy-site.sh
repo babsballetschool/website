@@ -30,5 +30,5 @@ www.babsballetschool.nl
 EOF
 
 git add -A .
-git commit -m "rebuild pages at ${rev}"
+git commit -m "rebuild pages at ${rev} at `date`"
 git push -q upstream HEAD:master
