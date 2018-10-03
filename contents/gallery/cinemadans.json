@@ -2,7 +2,7 @@
     "title": "Cinemadans",
     "photos": [
         { "src": "../resources/image/cinemadans_2013/IMG_5377.jpg", "title": "Pink Panther"},
-        { "src": "../resources/image/cinemadans_2011/IMG_3783.JPG", "title": "Pirates", "description": "zomervlucht naar de Pirates of the Caribbean" },
-        { "src": "../resources/image/cinemadans_2011/IMG_3825.JPG", "title": "De kleine zeemeermin", "description": "zomervlucht naar de kleine zeemeermin" }
+        { "src": "../resources/image/cinemadans_2013/IMG_5148.jpg", "title": "Pirates of the Caribbean"},
+        { "src": "../resources/image/cinemadans_2013/IMG_4900.JPG", "title": "Narnia"}
     ]
 }
