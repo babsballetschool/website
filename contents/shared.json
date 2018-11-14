@@ -15,7 +15,6 @@
   "links": [
       { "label": "foto's", "href": "/fotos.html" },
       { "label": "links", "href": "/links.html" },
-      { "label": "regels", "href": "/regels.html" },
-      { "label": "facebook", "href": "https://www.facebook.com/BabsBalletschool-2025988964395781/" }
+      { "label": "regels", "href": "/regels.html" }
   ]
 }
