@@ -6,7 +6,7 @@ describe('parser', function(){
         parser.parse([
             '# Hello, World!'
         ].join('\n'), function(err, output){
-            assert.deepEqual(output, '<section><h1 id="hello-world-">Hello, World!</h1>\n</section>');
+            assert.deepEqual(output, '<section><h1 id="hello-world">Hello, World!</h1>\n</section>');
             done();
         });
 
@@ -18,7 +18,7 @@ describe('parser', function(){
             "---",
             "# Goodbye, World!"
         ].join('\n'), function(err, output){
-            assert.deepEqual(output, '<section><h1 id="hello-world-">Hello, World!</h1>\n</section><section><h1 id="goodbye-world-">Goodbye, World!</h1>\n</section>');
+            assert.deepEqual(output, '<section><h1 id="hello-world">Hello, World!</h1>\n</section><section><h1 id="goodbye-world">Goodbye, World!</h1>\n</section>');
             done();
         });
     });
