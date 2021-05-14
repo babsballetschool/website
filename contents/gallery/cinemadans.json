@@ -1,11 +1,8 @@
 {
-    "title": "Cinemadans",
+    "title": "CinemaDans",
     "photos": [
-        { "src": "../resources/image/cinemadans_2013/IMG_5377.jpg", "title": "Pink Panther", "description":"" },
-        { "src": "../resources/image/cinemadans_2013/IMG_5148.jpg", "title": "Pirates of the Caribbean"},
-        { "src": "../resources/image/cinemadans_2013/IMG_4900.JPG", "title": "Narnia"}
-        { "src": "../resources/image/cinemadans_2013/IMG_4825.JPG", "title": "Titanic"}
-        { "src": "../resources/image/cinemadans_2013/IMG_4460.jpg", "title": "Fame"}
-        
+       { "src": "../resources/image/cinemadans_2013/IMG_5148.jpg", "title": "Pirates", "description": "" },
+        { "src": "../resources/image/cinemadans_2013/IMG_4779.JPG", "title": "Charleston", "description": "" },
+        { "src": "../resources/image/cinemadans_2013/IMG_3771.JPG", "title": "Titanic", "description": "" }
     ]
-} 
+}
