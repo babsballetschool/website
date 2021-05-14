@@ -3,7 +3,7 @@
     "title": "Er was eens",
     "photos": [
        { "src": "../resources/image/er_was_eens/Er was eens Zwanen.jpg", "title": "Zwanen", "description": "" },
-        { "src": "../resources/image/zomervlucht/Zomervlucht2009Bijenbende.JPG", "title": "Bijenbende", "description": "" },
-        { "src": "../resources/image/zomervlucht/Zomervlucht2009China.JPG", "title": "China", "description": "" }
+        { "src": "../resources/image/er_was_eens/Er was eens Lakeien.jpg", "title": "Lakeien", "description": "" },
+        { "src": "../resources/image/er_was_eens/Er was eens Heksenketel.jpg", "title": "Heksenketel", "description": "" }
     ]
 }
