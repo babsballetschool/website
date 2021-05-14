@@ -1,0 +1,8 @@
+{
+    "title": "Jubileumvoorstelling",
+    "photos": [
+       { "src": "../resources/image/algemeen/Jubileumvoorstelling assepoesters (13).jpg", "title": "Assepoesters", "description": "" },
+        { "src": "../resources/image/algemeen/Jubileumvoorstelling liefde voor het leven.jpg", "title": "Liefdevoorhetleven", "description": "" },
+        { "src": "../resources/image/algemeen/Jubileumvoorstelling zilte zee.jpg", "title": "ZilteZee", "description": "" }
+    ]
+}
