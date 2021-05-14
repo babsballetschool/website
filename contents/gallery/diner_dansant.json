@@ -1,8 +1,8 @@
 {
     "title": "Diner Dansant",
     "photos": [
-        { "src": "../resources/image/cinemadans_2011/IMG_3771.JPG", "title": "Titanic", "description": "zomervlucht naar de titanic" },
-        { "src": "../resources/image/cinemadans_2011/IMG_3783.JPG", "title": "Pirates", "description": "zomervlucht naar de Pirates of the Caribbean" },
-        { "src": "../resources/image/cinemadans_2011/IMG_3825.JPG", "title": "De kleine zeemeermin", "description": "zomervlucht naar de kleine zeemeermin" }
+        { "src": "../resources/image/algemeen/Diner Dansant Dees.JPG", "title": "Pepertjes", "description": "" },
+        { "src": "../resources/image/algemeen/Diner Dansant Muizen Isolde.JPG", "title": "Muizen", "description": "" },
+        { "src": "../resources/image/algemeen/Diner Dansant Obers ( Jaan).JPG", "title": "Obers", "description": "" }
     ]
 }
