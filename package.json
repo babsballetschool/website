@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "The Balletboetiek website",
+  "description": "Babs Balletschool",
   "main": "index.js",
   "scripts": {
     "generate": "punch generate",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deBalletboetiek/website.git"
+    "url": "git+https://github.com/babsballetschool/website.git"
   },
   "keywords": [
     "website",
@@ -19,9 +19,9 @@
   "author": "Daan van Berkel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/deBalletboetiek/website/issues"
+    "url": "https://github.com/babsballetschool/website/issues"
   },
-  "homepage": "https://github.com/deBalletboetiek/website#readme",
+  "homepage": "https://github.com/babsballetschool/website#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
