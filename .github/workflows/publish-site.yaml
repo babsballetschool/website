@@ -11,3 +11,6 @@ jobs:
       - uses: dcodeIO/setup-node-nvm@master
       - run: npm install
       - run: npm run generate
+      - run: bash deploy-site.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
