@@ -11,6 +11,14 @@ jobs:
       - uses: dcodeIO/setup-node-nvm@master
       - run: npm install
       - run: npm run generate
-      - run: bash deploy-site.sh
+      - run: bash prepare-deploy.sh
+      - uses: cpina/github-action-push-to-another-repository@main
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'output'
+          destination-github-username: 'babsballetschool'
+          destination-repository-name: 'babsballetschool.github.io'
+          user-email: daan@fifth-postulate.nl 
+          user-name: dvberkel
+          target-branch: master
