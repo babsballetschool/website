@@ -1,4 +1,4 @@
-# website [![Build Status](https://travis-ci.org/babsballetschool/website.svg?branch=master)](https://travis-ci.org/babsballetschool/website)
+# website
 Babs Balletschool website.
 
 ## Setup
