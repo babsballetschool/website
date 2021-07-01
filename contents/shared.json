@@ -10,6 +10,7 @@
       { "label": "flamenco", "href": "/flamenco.html", "class": "flamenco" },
       { "label": "jazz", "href": "/jazz.html" },
       { "label": "modern", "href": "/modern.html" },
+      { "label": "werelddans", "href": "/werelddans.html"},
       { "label": "kleding", "href": "/kleding.html" }
 	],
   "links": [
