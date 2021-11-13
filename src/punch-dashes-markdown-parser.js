@@ -1,11 +1,11 @@
-var marked = require('marked');
+var marked = require('marked').marked;
 
 function parse(input, callback) {
     var output, err;
     try {
         output = input.split(/---/g)
             .map(function(md){
-                return marked(md);
+                return marked.parse(md);
             })
             .map(function(story){
                 return '<section>' + story + '</section>';
