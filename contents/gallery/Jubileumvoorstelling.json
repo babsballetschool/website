@@ -1,8 +1,8 @@
 {
     "title": "Jubileumvoorstelling",
     "photos": [
-       { "src": "../resources/image/Jubileumvoorstelling assepoesters (13).jpg", "title": "Assepoesters", "description": "" },
-        { "src": "../resources/image/Jubileumvoorstelling liefde voor het leven.jpg", "title": "Liefdevoorhetleven", "description": "" },
-        { "src": "../resources/image/Jubileumvoorstelling zilte zee.jpg", "title": "ZilteZee", "description": "" }
+       { "src": "../resources/image/algemeen/Jubileumvoorstelling%20assepoesters%20(13).jpg", "title": "Assepoesters", "description": "" },
+        { "src": "../resources/image/algemeen/Jubileumvoorstelling%20liefde%20voor%20het%20leven.jpg", "title": "Liefdevoorhetleven", "description": "" },
+        { "src": "../resources/image/algemeen/Jubileumvoorstelling%20zilte%20zee.jpg", "title": "ZilteZee", "description": "" }
     ]
 }
