@@ -1,8 +1,13 @@
 name: publish-site
+
 on:
   push:
     branches:
       - master
+
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
+
 jobs:
   generate-and-deploy:
     runs-on: ubuntu-latest
